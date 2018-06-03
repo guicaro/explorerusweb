@@ -16,7 +16,7 @@
 title: Explore Russia
 
 # This is the place to set up the contact form recipient
-# email: memo@explorerus.com
+email: memo@explorerus.com
 
 description: > # this means to ignore newlines until "baseurl:"
   Explore Russia with help of your personal virtual assistant. We can help with transportation, reservations, interpreting
