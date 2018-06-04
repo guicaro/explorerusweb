@@ -2,18 +2,18 @@
 layout: default
 onepage: true
 services:
-  - title: One request
+  - title: One request - $5.00 USD
     icon: fa fa-bookmark-o
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. <div id="paypal-button-container"></div>
-    bg: /assets/images/@stock/service-item-1-bg.jpg
-  - title: 1 day pakcage (5 requests)
+    desc: Want to try us out and don't want to commit to a day? This will get you in contact with us and we will help you with your request via text or voice call
+    bg: /assets/images/@stock/service-1.jpg
+  - title: 1 day package - $50.00 USD
     icon: fa fa-bookmark-o
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus.
-    bg: /assets/images/@stock/service-item-2-bg.jpg
-  - title: 3 day package (20 requests)
+    desc: Availability of 24 hours for help or recommendations. Great if you need advise previous to your trip or for that first day in Russia. Package includes 5 requests via text or voice.
+    bg: /assets/images/@stock/service-2.jpg
+  - title: 3 day package - $125.00 USD
     icon: fa fa-bookmark-o
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus.
-    bg: /assets/images/@stock/service-item-3-bg.jpg
+    desc: Worry free package perfect to keep your trip hassle free. This package includes 15 requests/recommendations via text or voice.
+    bg: /assets/images/@stock/service-3.jpg
 works:
   - path: _works/diff-foods.md
   - path: _works/sketch-book.md 
@@ -34,12 +34,12 @@ members:
       ""
   - avatar: /assets/images/@stock/mashaAvatar.png
     name: Maria Polishchuk
-    position: Creative Director
+    position: Advisor
     socials:
       - link: https://www.instagram.com/_soloway_/
         icon: instagram
     desc:
-      "Mark started designing web sites back in 1992. Since then, he has worked for a wide range of digital agencies in the UK and America. At Wrap, Mark’s role means solving all kinds of visual design problems."
+      "You can call me Masha, I have lived in Saint Petersburg almost all my life, I am passionate about music and entrepreneurship. I currently play the flute in a symphony in Saint Petersburg. Looking forward to help make your stay in Russia a remarkable experience."
   - avatar: /assets/images/@stock/memoAvatar.png
     name: Guillermo Cabrera
     position: Advisor
@@ -48,8 +48,10 @@ members:
         icon: twitter
       - link: https://www.linkedin.com/in/guillermo-cabrera-21843019/
         icon: linkedin
+      - link: https://www.guicaro.com/about/
+        icon: dribble
     desc:
-      "As the founder and CEO of Wrap, and as an interactions and visual design specialist, she knows that user- centred and easy-to-use design is an essential way to distinguish a good product and an awesome product."
+      "I go by Memo, I first travelled to Russia in 2012 and since then I've visited, studied and worked in Saint Petersburg for about 2 years all together. I am a software developer by profession, but a travel enthuthiast by heart. I've been to several cities in Russia and hope to keep learning about this great country and its people."
   - avatar: 
     name: 
     position: 
@@ -69,7 +71,7 @@ testimonials:
       name: "Zeus Cortois"
       avatar: '/assets/images/@stock/author-zeus.png'
       position: 'Developer at IBM'
-  - quote: "Hassle free travel thanks to Memo and his team. He helped me change my train tickets from RZD as I decided to stay longer in Saint Petersburg. Memo's passion for Russian language and culture is contagious and makes me want to return to Russia in the near future"
+  - quote: "Hassle free travel thanks to Memo and his team. Even before arriving to Russia, he gave me a detailed guide to get a Visa. He helped me change my train tickets from RZD as I decided to stay longer in Saint Petersburg. Memo's passion for Russian language and culture is contagious and makes me want to return to Russia in the near future"
     author: 
       name: "Kavitha Baratakke"
       avatar: '/assets/images/@stock/author-kavitha.png'
@@ -110,9 +112,9 @@ clients:
          <span class="sec">when you need it </span><br/>
       </h1>
       <h2 class='thin'>
-       This is wrap, a creative digital company, creating solutions for any visual identity project, espetically for digital experiences and brand identities. 
-       {% assign nav_obj = site.data.nav | where:'section_id','works' | first %}
-       <a href='{{ "index.html" | append:nav_obj.path | relative_url }}'>View our works</a>
+       We provide virtual personalized help for tourists in Russia (English and Spanish). Anything from restaurant recommendations, transportation arrangement and Russian language interpreting.
+       {% assign nav_obj = site.data.nav | where:'section_id','services' | first %}
+       <a href='{{ "index.html" | append:nav_obj.path | relative_url }}'>View our services</a>
       </h2>
     </div>
   </div>
@@ -124,12 +126,22 @@ clients:
   <div class='row'>
     <div class='large-8 columns large-centered'>
       <div class="section-title">
-        <p class="small-title">Creative experience</p>
+        <p class="small-title">about us</p>
         <h2>
-          Creating solutions  <br/> 
-          is what we do best.
+          Hassle free travel,  <br/> 
+          immersion in Russia
         </h2>
-        <p class="big-size">We are creating solutions for any visual identity project, espetically for digital experiences and brand identities.</p>
+        <p class="big-size">Our team is commited to make your stay as active, cultural, culinary, local as you want it. Here are some sample requests we can help with:</p>
+           <p>How do I process a Russian Visa? Where do I get an invitation?</p>
+           <p>What's the fastest way to reach Saint Petersburg from Moscow?</p>
+           <p>Should I get an Uber or the Aeroexpress when arriving in Moscow?</p>
+           <p>I don't like Uber, are there more professional alternatives in Russia?</p>
+           <p>Where can I get USSR memorabilia, something not from tourist shops?</p>
+           <p>Can you help me get ballet tickets?</p>
+           <p>How can I avoid the super long lines at Hermitage?</p>
+           <p>Can you recommend a nice terrace to have dinner in Saint Petersburg?</p>
+           <p>I want to visit both Pushkin and Peterhof, can you help arrange transport?</p>
+           <p>I can't understand what my Airbnb host is saying, can you help interpret/translate?</p>
         <div class="four spacing"></div>
         <img src="{{ "/assets/images/logo-black.png" | relative_url }}" alt="">
       </div>
@@ -143,10 +155,10 @@ clients:
     <div class="section-header alt white">
       <h2>client focused</h2>
     </div>
-    <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate rem aspernatur eos tempora corporis cum consequuntur quasi explicabo, aut omnis, pariatur minus numquam deserunt reprehenderit dignissimos illum voluptas animi!</p>
-    <p class="light">Dolor sit amet, consectetur adipisicing elit. Quod, eius optio eum hic dicta veritatis voluptates nisi amet nulla at!</p>
+    <p class="light">Whether you are travelling by yourself or with your partner, for leisure or on a business trip. We can help you with tips and recommendations to stay on top of your trip.</p>
+    <p class="light">Russia is an amazing country, home of authors like Pushkin, Tolstoy or Dostoyevsky, or composers like Rachmaninoff, Tchaikovsky or Stravinsky, painters such as Kandinsky, Repin or Korovin. The list can go on with ballet, teather and so many other areas. We hope to share our passion for Russia with you!</p>
     <div class="two spacing"></div>
-    <a href="#" class="button small">Meat the team</a>
+    <a href="#team" class="button small">Meet the team</a>
     <div class="three spacing"></div>
   </div>
 </div>
@@ -158,7 +170,10 @@ clients:
     <div class='large-8 columns large-centered'>
       <div class="section-title">
         <p class="small-title">main services</p>
-        <h2>We transform business.</h2>
+        <h2>How we work</h2>
+        <p class="big-size">1. Choose one of the packages below</p>
+        <p class="big-size">2. Immediately upon payment you will get our contact numbers (ex. Skype, WhatsApp, Viber, Facebook messenger)</p>
+        <p class="big-size">3. Start asking!</p>
       </div>
     </div>
   </div>
@@ -241,7 +256,7 @@ clients:
 <div class='full dark-grey'>
   <div class='row'>
     <div class='large-8 columns large-centered'>
-      {% include section-title.html small_title="The team" title="Привет! Hello! Hola!" %}
+      {% include section-title.html small_title="The team" title="Привет | Hello | Hola" %}
     </div>
   </div>
 </div>
