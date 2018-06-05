@@ -18,6 +18,8 @@ title: Explore Russia
 # This is the place to set up the contact form recipient
 email: memo@explorerus.com
 
+google_analytics: "UA-120361527-1"
+
 description: > # this means to ignore newlines until "baseurl:"
   Explore Russia with help of your personal virtual assistant. We can help with transportation, reservations, interpreting
 baseurl: "" # the subpath of your site, e.g. /blog
