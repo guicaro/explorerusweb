@@ -1,0 +1,400 @@
+---
+layout: default
+onepage: true
+services:
+  - title: One request - $5.00 USD
+    icon: fa fa-bookmark-o
+    desc: Want to try us out and don't want to commit to a day? This will get you in contact with us and we will help you with your request via text or voice call
+    bg: /assets/images/@stock/service-1.jpg
+  - title: 1 day package - $50.00 USD
+    icon: fa fa-bookmark-o
+    desc: Availability of 24 hours for help or recommendations. Great if you need advise previous to your trip or for that first day in Russia. Package includes 5 requests via text or voice.
+    bg: /assets/images/@stock/service-2.jpg
+  - title: 3 day package - $125.00 USD
+    icon: fa fa-bookmark-o
+    desc: Worry free package perfect to keep your trip hassle free. This package includes 15 requests/recommendations via text or voice.
+    bg: /assets/images/@stock/service-3.jpg
+works:
+  - path: _works/diff-foods.md
+  - path: _works/sketch-book.md 
+  - path: _works/tv-video.md
+    style: wide
+  - path: _works/umbrella-beauty.md
+  - path: _works/amber.md
+  - path: _works/explore.md  
+  - path: _works/uro-mag.md 
+    style: wide
+  - path: _works/flowers.md
+members:
+  - avatar: 
+    name: 
+    position: 
+    socials:
+    desc:
+      ""
+  - avatar: /assets/images/@stock/mashaAvatar.png
+    name: Maria Polishchuk
+    position: Chief Advisor
+    socials:
+      - link: https://www.instagram.com/mashoolya/
+        icon: instagram
+    desc:
+      "You can call me Masha, I have lived in Saint Petersburg almost all my life, I am passionate about music and entrepreneurship. I currently play the flute in a symphony in Saint Petersburg. Looking forward to help make your stay in Russia a remarkable experience."
+  - avatar: /assets/images/@stock/memoAvatar.png
+    name: Guillermo Cabrera
+    position: Chief Advisor
+    socials:
+      - link: http://twitter.com/guicaro
+        icon: twitter
+      - link: https://www.linkedin.com/in/guillermo-cabrera-21843019/
+        icon: linkedin
+      - link: https://www.guicaro.com/about/
+        icon: dribble
+    desc:
+      "I go by Memo, I first travelled to Russia in 2012 and since then I've visited, studied and worked in Saint Petersburg for about 2 years all together. I am a software developer by profession, but a travel enthuthiast by heart. I've been to several cities in Russia and hope to keep learning about this great country and its people."
+  - avatar: 
+    name: 
+    position: 
+    socials:
+    desc:
+      ""
+
+team_slides:
+  - /assets/images/@stock/slide-1.jpg
+  - /assets/images/@stock/slide-2.jpg
+  - /assets/images/@stock/slide-3.jpg
+  - /assets/images/@stock/slide-4.jpg
+
+testimonials:
+  - quote: "Back in 2015 I decided to go to Russia for the first time. Memo was instrumental in recommending clubs, great restaurants and outstanding hotels. Not knowing Russian, I struggled at the beggining, yet, Memo would help when ordering food, arranging transportation or even help buying museum tickets. Thanks Memo!"
+    author: 
+      name: "Zeus Courtois"
+      avatar: '/assets/images/@stock/author-zeus.png'
+      position: 'Software Engineer at IBM'
+  - quote: "Hassle free travel thanks to Memo and his team. Even before arriving to Russia, he gave me a detailed guide to get a Visa. He helped me change my train tickets from RZD as I decided to stay longer in Saint Petersburg. Memo's passion for Russian language and culture is contagious and makes me want to return to Russia in the near future"
+    author: 
+      name: "Kavitha Baratakke"
+      avatar: '/assets/images/@stock/author-kavitha.png'
+      position: 'Technical Account Manager at Atlassian'
+  - quote: "I never thought I would be dancing Salsa in Russia! Or that I would see the Hermitage (largest art collection in the world). The palaces, streets to walk on and restaurants were all great recommendations from Memo"
+    author: 
+      name: "Michelle Buescher"
+      avatar: '/assets/images/@stock/author-michelle.png'
+      position: 'Actuary'
+
+clients:
+  - /assets/images/@stock/client-1.png
+  - /assets/images/@stock/client-2.png
+  - /assets/images/@stock/client-3.png
+  - /assets/images/@stock/client-4.png
+
+  - /assets/images/@stock/client-5.png
+  - /assets/images/@stock/client-6.png  
+  - /assets/images/@stock/client-7.png    
+  - /assets/images/@stock/client-2.png
+  
+  - /assets/images/@stock/client-3.png
+  - /assets/images/@stock/client-4.png  
+  - /assets/images/@stock/client-1.png   
+  - /assets/images/@stock/client-6.png    
+---
+
+<div class='full no-padding parallax home-video-wrapper'>
+  <div class='fullscreen'>
+    <video playsinline autoplay='autoplay' id='fullscreen-video' loop='loop'>
+      <source src='{{ "/assets/images/@stock/cover-video.optimized.mp4" | relative_url }}' type='video/mp4'>
+    </video>
+    <div class='overlay'></div>
+    <div class='layer'>
+      <p class="small-title">Explore Russia </p>
+      <h1 class='thin' id="to-be-update">
+         <span class="fir">Advice,</span><br/>
+         <span class="sec">when you need it </span><br/>
+      </h1>
+      <h2 class='thin'>
+       We provide virtual personalized help for tourists in Russia <b>(English and Spanish)</b>. Anything from restaurant recommendations, transportation arrangement and Russian language interpreting.
+       {% assign nav_obj = site.data.nav | where:'section_id','services' | first %}
+       <a href='{{ "index.html" | append:nav_obj.path | relative_url }}'>View our services</a>
+      </h2>
+    </div>
+  </div>
+</div>
+
+
+<a id='about'></a>
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      <div class="section-title">
+        <p class="small-title">about us</p>
+        <h2>
+          Hassle free travel,  <br/> 
+          immersion in Russia
+        </h2>
+        <p class="big-size">Our team is commited to make your stay as active, cultural, culinary, local as you want it. Here are some sample requests we can help with:</p>
+           <p>How do I process a <b>Russian Visa</b>? Where do I get an invitation?</p>
+           <p>What's the <b>fastest way</b> to reach Saint Petersburg from Moscow?</p>
+           <p>Should I get an <b>Uber or the Aeroexpress</b> when arriving in Moscow?</p>
+           <p>I don't like Uber, are there more <b>professional alternatives</b> in Russia?</p>
+           <p>Where can I get <b>USSR memorabilia</b>, something not from tourist shops?</p>
+           <p>Can you help me get <b>ballet tickets</b>?</p>
+           <p>How can I avoid the super long lines at <b>Hermitage</b>?</p>
+           <p>Can you recommend a nice <b>terrace to have dinner</b> in Saint Petersburg?</p>
+           <p>I want to visit both <b>Pushkin and Peterhof</b>, can you help arrange transport?</p>
+           <p>I can't understand what my <b>Airbnb host is saying</b>, can you help interpret/translate?</p>
+        <div class="four spacing"></div>
+        <img src="{{ "/assets/images/logo-black.png" | relative_url }}" alt="">
+      </div>
+    </div>
+    <div class="four spacing"></div>
+  </div>
+</div>
+<div class="full no-overflow no-padding parallax" style="background-image: url({{ "/assets/images/@stock/about.jpg" | relative_url }})">
+  <div class="right-half">
+    <div class="two spacing"></div>
+    <div class="section-header alt white">
+      <h2>client focused</h2>
+    </div>
+    <p class="light">Whether you are travelling by yourself or with your partner, for leisure or on a business trip. We can help you with tips and recommendations to stay on top of your trip.</p>
+    <p class="light">Russia is an amazing country, home of authors like Pushkin, Tolstoy or Dostoyevsky, or composers like Rachmaninoff, Tchaikovsky or Stravinsky, painters such as Kandinsky, Repin or Korovin. The list can go on with ballet, teather and so many other areas. We hope to share our passion for Russia with you!</p>
+    <div class="two spacing"></div>
+    <a href="#team" class="button small">Meet the team</a>
+    <div class="three spacing"></div>
+  </div>
+</div>
+
+
+<a id='services'></a>
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      <div class="section-title">
+        <p class="small-title">main services</p>
+        <h2>How we work</h2>
+        <p class="big-size">1. Choose one of the packages below</p>
+        <p class="big-size">2. Immediately upon payment you will get our contact numbers (ex. Skype, WhatsApp, Viber, Facebook messenger)</p>
+        <p class="big-size">3. Start asking!</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='full no-overflow no-padding'>
+  <div class='main-services'>
+    {% for item in page.services %}
+      <div class='medium-6 large-4 columns'>
+        {% include service.html service=item %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!--
+<a id='works'></a>
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="take a look" title="What we recently do." %}
+    </div>
+  </div>
+</div>
+<div class='full no-padding' id="demo-1-works">
+  <div class='mod modMasonryGallery'>
+    <ul class='gallery'>
+
+      {% for item in page.works %}
+
+        {% assign work = site.works | where:"path",item.path | first %}
+
+        {% if item.style == 'wide' %}
+          {% assign class = 'wide' %}
+          {% assign width = 1000 %}
+          {% assign height = 350 %}
+        {% else %}
+          {% assign class = '' %}
+          {% assign width = 500 %}
+          {% assign height = 350 %}
+        {% endif %}
+
+        <li class="{{class}}">
+          <a href='{{ work.url | relative_url }}'>
+            <img width="{{width}}" height="{{height}}" alt="" src="{{ work.thumbnail | relative_url }}" />
+            <div class='overlay'>
+              <div class='thumb-info'>
+                <h3>{{ work.title | downcase | capitalize }}</h3>
+                <p>{{ work.categories | join:" & " | escape }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+      {% endfor %}
+
+    </ul>
+  </div>
+</div>
+<div class='full dark no-padding '>
+  <div class="four spacing"></div>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <h3 class="white">Customized to meet your needs.</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur inventore minimar.
+      </p>
+    </div>
+    <div class='large-4 columns'>
+      <p>
+        <a class='button small boxed' href='#'>Download Now</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+-->
+
+
+<a id='team'></a>
+<div class='full dark-grey'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="The team" title="Привет | Hello | Hola" %}
+    </div>
+  </div>
+</div>
+<div class="full dark-grey no-padding">
+  <div class="members">
+    {% for member in page.members %}
+      <div class="small-3 columns">
+        <div class='member-avatar'>
+          <img class="avatar" alt="" src="{{ member.avatar | relative_url }}" />
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="full no-padding team-bg">
+  <div class="div member-decs">
+    {% for member in page.members %}
+      <div class="large-3 columns">
+        <div class='member-dec'>
+          <div class='intro'>
+            <h3>{{ member.name | escape }}</h3>
+            <h4>{{ member.position | escape }}</h4>
+            <p>{{ member.desc | escape }}</p>
+            <ul class='socials'>
+              {% for social in member.socials %}
+                <li>
+                  <a href='{{ social.link }}'>
+                    <i class='fa fa-{{ social.icon }}'></i>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="four spacing"></div>
+</div>
+<div class="full no-padding">
+  <div class='mod modBoxedSlider' data-timeout='1500'>
+    <div class='slides'>
+      {% for image in page.team_slides %}
+        <div class='slide'>
+          <img width="1200" height="800" alt="" src="{{ image | relative_url }}" />
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!--
+<a id='blog'></a>
+<div class='full grey'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="latest posts" title="Wrap ideas." %}
+    </div>
+  </div>
+</div>
+<div class="full grey no-padding no-overflow">
+  {% for post in site.posts limit:3 %}
+    <div class='large-4 columns'>
+      <div class='mod modBlogPost simple'>
+        <div class='content'>
+          <p class='date'>{{ post.date | date: "%B %d, %Y" }}</p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <div class='spacing'></div>
+          <p>
+            <a class='button boxed yellow tiny' href='{{ post.url | relative_url }}'>Read more</a>
+          </p>
+        </div>
+      </div>
+      <div class="four spacing"></div>
+    </div>
+  {% endfor %}
+</div>
+-->
+
+<div class='full no-overflow no-padding parallax' style="background-image: url({{ "/assets/images/@stock/clients.png" | relative_url }})">
+  <div class="left-half">
+    <div class="two spacing"></div>
+    <div class="row">
+      <div class="section-header alt white">
+        <h2>What our clients say</h2>
+      </div>
+      <div class='mod modTestimonials simple'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items'>
+              {% for t in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>{{ t.quote }}</p>
+                  <div class="two spacing"></div>
+                  <div class='author'>
+                    <p class='author-avatar'>
+                      <img width="80" height="80" alt="" src="{{ t.author.avatar | relative_url }}" />
+                    </p>
+                    <p class='author-name'>
+                      -
+                      <strong>{{ t.author.name }}</strong>
+                      {%- if t.author.position %}, {{ t.author.position }}{% endif %}
+                    </p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns large-centered'>
+      {% include section-title.html small_title="we are happy" title="Featured clients" %}
+    </div>
+  </div>
+</div>
+<div class="full no-padding">
+  <div class="clients">
+    <div class='row'>
+      {% for client in page.clients %}
+        <div class='large-3 medium-6 small-6 columns'>
+          <div class="client">
+            <a href="javascript:void(0)"><img alt="" src="{{ client | relative_url }}" /></a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="four spacing"></div>
+</div>
+-->
+
+<div class="four spacing"></div>
+<a id='contact'></a>
+{% include contact-form.html %}
