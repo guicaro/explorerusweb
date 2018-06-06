@@ -2274,9 +2274,9 @@ body {
   -webkit-transition-property: all;
   -moz-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  transition-duration: 0.4s; }
+  -webkit-transition-duration: 0.9s;
+  -moz-transition-duration: 0.9s;
+  transition-duration: 0.9s; }
 .modClients a:hover img {
   border: 1px solid #666; }
 
